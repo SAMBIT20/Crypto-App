@@ -16,7 +16,7 @@ import { CryptoState } from "../CryptoContext";
 const useStyle = makeStyles(() => ({
   title: {
     flex: 1,
-    color: "#2499f9",
+    color: "#fff",
     fontFamily: "Montserrat",
     fontWeight: "bold",
     cursor: "pointer",
