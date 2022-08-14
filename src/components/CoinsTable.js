@@ -76,7 +76,7 @@ const CoinsTable = () => {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "gold",
+        color: "#2499f9",
       },
     },
   });
@@ -102,7 +102,7 @@ const CoinsTable = () => {
 
         <TableContainer>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "gold" }} />
+            <LinearProgress style={{ backgroundColor: "#2499f9" }} />
           ) : (
             <Table>
               <TableHead style={{ backgroundColor: "#EEBC1D" }}>
